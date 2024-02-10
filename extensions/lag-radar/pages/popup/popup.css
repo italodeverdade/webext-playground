@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+  background: #fff;
+}
+
+html {
+  height: 200px;
+  width: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html,
+body,
+#app {
+  flex-direction: column;
+}
+
+html,
+body,
+#app,
+#settings-form {
+  display: flex;
+  flex: 1;
+}
+
+#app {
+  margin: 16px;
+  gap: 16px;
+}
+
+#settings-form {
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  display: grid;
+  grid-column: 2;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-input input[type='text'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: 0;
+}
+
+button {
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button[data-checked='false'] {
+  background: rgba(0, 0, 0, 0.24);
+}
+
+button[type='submit'],
+button[data-checked='true'] {
+  background: rgba(0, 255, 0, 0.64);
+  grid-column: 1 / span 2;
+}
+
+button[type='submit']:hover,
+button[data-checked='true']:hover {
+  background: rgba(0, 255, 0, 0.8);
+}

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "naumovs.color-highlight",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv"
+  ]
+}

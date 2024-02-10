@@ -1,0 +1,21 @@
+.radar {
+  pointer-events: none;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+.radar .sweep > * {
+  shape-rendering: crispEdges;
+}
+
+.radar .face {
+  fill: rgba(0, 255, 0, 0.5);
+  stroke: rgba(0, 255, 0, 0.8);
+  stroke-width: 1px;
+}
+
+.radar .hand {
+  stroke-width: 4px;
+  stroke-linecap: round;
+}

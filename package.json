@@ -1,0 +1,20 @@
+{
+  "name": "webext-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italodeverdade/webext-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italodeverdade/webext-playground/issues"
+  },
+  "homepage": "https://github.com/italodeverdade/webext-playground#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "eslint": "^8.56.0"
+  }
+}

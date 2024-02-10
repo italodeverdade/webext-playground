@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+    <title>Settings</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1 data-message="formTitle">"Lag" Radar Settings</h1>
+      <form id="settings-form">
+        <div class="form-input">
+          <label data-message="formVisibilityLabel">Visibility</label>
+          <button type="button" data-checked="false" id="settings-visible">Visible</button>
+        </div>
+
+        <div class="form-input">
+          <label data-message="formFPSLabel">FPS</label>
+          <input type="text" id="settings-frames" />
+        </div>
+
+        <div class="form-input">
+          <label data-message="formSizeLabel">Size</label>
+          <input type="text" id="settings-size" />
+        </div>
+
+        <div class="form-input">
+          <label data-message="formSpeedLabel">Speed</label>
+          <input type="text" id="settings-speed" />
+        </div>
+
+        <button data-message="form_saveLabel" id="save" type="submit">Save</button>
+      </form>
+    </div>
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>

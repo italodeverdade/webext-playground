@@ -1,0 +1,54 @@
+{
+  "appName": {
+    "message": "\"Lag\" Radar",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "\"Lag\" Radar",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Show a radar to identify \"lag\" interactions on web.",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "Open \"lag\" radar settings",
+    "description": "The title of the browser action"
+  },
+  "formTitle": {
+    "message": "Radar settings",
+    "description": "The form title"
+  },
+  "formVisibilityLabel": {
+    "message": "Visibility",
+    "description": "The visibility label"
+  },
+  "radarVisibilityHidden": {
+    "message": "Hidden",
+    "description": "The visibility of the radar"
+  },
+  "radarVisibilityVisible": {
+    "message": "Visible",
+    "description": "The visibility of the radar"
+  },
+  "formFPSLabel": {
+    "message": "FPS",
+    "description": "The FPS label"
+  },
+  "formSizeLabel": {
+    "message": "Size",
+    "description": "The size label"
+  },
+  "formSpeedLabel": {
+    "message": "Speed",
+    "description": "The speed label"
+  },
+  "form_saveLabel": {
+    "message": "Save",
+    "description": "Save label"
+  },
+  "form_savedLabel": {
+    "message": "Saved!",
+    "description": "Saved label"
+  }
+}
